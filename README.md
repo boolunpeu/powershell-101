@@ -1,1 +1,3 @@
-# powershell-101
+# windows-101
+
+Learn about windows and powershell
