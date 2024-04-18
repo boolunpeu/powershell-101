@@ -1,5 +1,5 @@
-# WINDOWS CLIENT INSTALALTION ON A VM 
-
+# WINDOWS CLIENT
+---
 OS : Windows : 10
 
 **Admin account**: alice-admin
