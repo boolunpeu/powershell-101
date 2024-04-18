@@ -1,10 +1,10 @@
 Windows : 10
 
-Admin account: alice-admin
-Passwd: aliceadmin123
+**Admin account**: alice-admin
+**Passwd**: aliceadmin123
 
-User account: Bob
-passwd: 1234
+**User account**: Bob
+**passwd**: 1234
 
 
 **Report: Installation and Configuration of Windows for VeryEasyIT Client**
@@ -16,15 +16,29 @@ passwd: 1234
 1. **Installation of Windows 10:** Utilizing Hyper-V, the Windows 10 ISO was installed, initiating the foundation for the operating system.
     
 2. **Administrator Account Setup (Alice):** The initial setup included creating Alice's account with administrative privileges, ensuring she has full control over the syste
+
+![admin-user](https://github.com/boolunpeu/windows-101/assets/131985567/956b07f6-6463-4e9a-95ac-cbd3edd62b1b)
     
-3. **System Updates:** Before proceeding further, all system updates were promptly installed to ensure the latest security patches and features were integrated.
+4. **System Updates:** Before proceeding further, all system updates were promptly installed to ensure the latest security patches and features were integrated.
     
-4. **Creation of Restricted User Account (Bob):** Following the update, a restricted user account for Bob was established. Bob's access was confined to the /Users/Bob folder, limiting his permissions to read, write, and execute files solely within this directory.
+5. **Creation of Restricted User Account (Bob):** Following the update, a restricted user account for Bob was established. Bob's access was confined to the /Users/Bob folder, limiting his permissions to read, write, and execute files solely within this directory.
+
+![bob-user](https://github.com/boolunpeu/windows-101/assets/131985567/1c523311-d131-4a23-848c-423226b49463)
+
+Here we can see that the user bob dont have permissions on other users path.
+
+![bob-permission](https://github.com/boolunpeu/windows-101/assets/131985567/7a65c722-6320-4a14-83c3-6db4d60ee98b)
+
     
-5. **Firewall Configuration:** Windows Firewall was activated and configured to fortify the system's defense against unauthorized access and malicious threats. This step was crucial in safeguarding both users' data and system integrity.
+7. **Firewall Configuration:** Windows Firewall was activated and configured to fortify the system's defense against unauthorized access and malicious threats. This step was crucial in safeguarding both users' data and system integrity.
+
+![firewall on](https://github.com/boolunpeu/windows-101/assets/131985567/d63acbe3-bc41-44bb-86fd-5bf1fb38a4d0)
+
     
-6. **Antivirus Installation:** To provide comprehensive protection against malware and other digital threats, an antivirus solution was installed and configured. This ensured real-time scanning and proactive defense mechanisms, enhancing the overall security posture of the system.
-    
+8. **Antivirus Installation:** To provide comprehensive protection against malware and other digital threats, an antivirus solution was installed and configured. This ensured real-time scanning and proactive defense mechanisms, enhancing the overall security posture of the system.
+
+ ![windowsecurity](https://github.com/boolunpeu/windows-101/assets/131985567/52af0dff-c3a9-4822-a7a0-4bf3891f2446)
+
 
 **Learning Objectives Achieved:**
 
