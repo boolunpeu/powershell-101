@@ -1,4 +1,6 @@
-Windows : 10
+# WINDOWS CLIENT INSTALALTION ON A VM 
+
+OS : Windows : 10
 
 **Admin account**: alice-admin
 **Passwd**: aliceadmin123
@@ -7,7 +9,7 @@ Windows : 10
 **passwd**: 1234
 
 
-**Report: Installation and Configuration of Windows for VeryEasyIT Client**
+**Report: Installation and Configuration of Windows for "VeryEasyIT Client" (Simulation)**
 
 **Mission Overview:** As a computer technician at VeryEasyIT, the task was to install Windows for one of our clients. Despite being a novel assignment, confidence prevailed due to the ample resources available online. The objective was to set up a Windows system with two users: Alice as the system administrator and Bob with restricted access to his /Users/Bob folder. Additionally, the installation included configuring an antivirus and a firewall to ensure system security.
 
