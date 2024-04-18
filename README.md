@@ -2,13 +2,17 @@
 
 In this repo you will find 2 .md files explaining what i did and what i learned about windows and his shell environnement + a csv file which results from a powershell script
 
-Here is the script : `#Get System Info
+Here is the script : 
+
+`#Get System Info
+
 $systemInfo = Get-WmiObject -Class Win32_ComputerSystem
 $osInfo = Get-WmiObject -Class Win32_OperatingSystem
 $processorInfo = Get-WmiObject -Class Win32_Processor
 $memoryInfo = Get-WmiObject -Class Win32_PhysicalMemory
 
 #Create an object containing the system info
+
 $pcInfo = [PSCustomObject]@{
     "Fabricant du système" = $systemInfo.Manufacturer
     "Modèle du système" = $systemInfo.Model
@@ -27,6 +31,5 @@ $pcInfo = [PSCustomObject]@{
 
 $pcInfo | Export-Csv -Path "pc_specs.csv" -NoTypeInformation
 
-Write-Host "Les spécifications du PC ont été enregistrées dans pc_specs.csv"
-`
+Write-Host "Les spécifications du PC ont été enregistrées dans pc_specs.csv"`
 
