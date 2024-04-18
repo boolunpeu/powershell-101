@@ -1,18 +1,17 @@
----
+# POWERSHELL
 
 ---
----
-# Powershell RTFM
+
+**Powershell RTFM**
 
 Everybody needs a little help at one time or another. In this exercise we will check how you can get help on powershell and how you can find interesting commands following your needs.
 
-- Open a PowerShell session in your terminal
-	-`Windows button, then search "powershell", launch powershell with admin right`
+- Open a PowerShell session in your terminal : Windows button, then search "powershell", launch powershell with admin right
 - type `Get-Help`
 - Find out what a command such as `Get-Process` does without looking on google
 - Now try with the `-online` parameter
 - What does `Get-command`?
-	-`It show you all the command available on your device`
+  	`It show you all the command available on your device`
 
 Optionally:
 
@@ -23,19 +22,19 @@ Optionally:
 Now we will learn how to move around in the filesystem with `Set-Location`, `Get-Location`, `Get-ChildItem` ...
 
 - Print your current location on the screen
-	-`get-location or gl`
+	-`get-location` or `gl`
 - Print the content of your current directory
-	-`get-childitem or gci or ls
+	-`get-childitem` or `gci` or `ls`
 - Print the content of your root (`C:` _if you're running windows_, `/` _for linux_)
 	-`'ls /' or 'gci /' or 'get-childitem /'`
 - Go into your home folder (_C:\Users\Username or /home/Username_)
-	-`'set-location /users/username' or 'sl users/username'
+	-`set-location /users/username` or `sl users/username`
 - Print the content of your home
 	-`ls /users/home/ or gci or get-childitem`
 - Those commands are pretty long to type, do you know any shorter way to do it?
-	-`ls for get-childitem
-	-`sl for set-location`
-	-`gl` for get-location
+	-`ls` for `get-childitem`
+	-`sl` for `set-location`
+	-`gl` for `get-location`
 
 # Powershell File Operations
 
